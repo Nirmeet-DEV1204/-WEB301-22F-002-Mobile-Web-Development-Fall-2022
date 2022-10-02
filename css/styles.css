@@ -1,6 +1,9 @@
 *{
     font-size: 14px;
 }
+span{
+    display: none;
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -32,6 +35,13 @@ img{
     p{
         max-width: 1000px;
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px)
+{
+    span{
+        display:block;
     }
 }
 
